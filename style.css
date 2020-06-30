@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.name-highlight{
+    color: rgb(199, 21, 88);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("Images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    margin-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image:linear-gradient(45deg, #C71558, #C7000F );
+    border: 10px 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.biography-section{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+}
+#latest-work{
+    text-align: center;
+}
+.latest-work-section{
+    margin-top: 400px;
+    
+}
+.latest-work-images{
+    margin: 5% 5%;
+}
+.latest-work-images2{
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+    padding: 0%;
+}
+#client{
+    text-align: center;
+}
+.client-review{
+    text-align: center;
+}
+.client-section{
+    margin-bottom: 50px;
+}
+.email-addrees{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-image:linear-gradient(45deg, #C71558, #C7000F );
+    border-radius: 5px;
+    margin: 30%;
+    padding: 20px;
+}
+
+#message{
+    padding-top: 2px; !impotant
+}
