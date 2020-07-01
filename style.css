@@ -1,12 +1,16 @@
 body{
     font-family: 'Roboto Slab', serif;
     margin: 0px;
+
 }
 h1{
     font-size: 50px;
 }
 h2{
     font-size: 40px;
+}
+h3{
+    30px
 }
 .name-highlight{
     color: rgb(199, 21, 88);
@@ -16,6 +20,7 @@ h2{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    
 }
 .half-width img{
     width: 100%;
@@ -23,6 +28,8 @@ h2{
 .top-banner{
     background-image: url("Images/header-bg.png");
     background-repeat: no-repeat;
+    margin-bottom: 300px;
+   
 }
 
 section{
@@ -41,7 +48,7 @@ section{
 }
 
 .biography-section{
-    background-image: url("biography-bg.png");
+    background-image: url("Images/biography-bg.png");
     background-repeat: no-repeat;
 }
 #latest-work{
@@ -49,7 +56,7 @@ section{
 }
 .latest-work-section{
     margin-top: 400px;
-    
+    background-image: url("Images/latest-work-bg.png");
 }
 .latest-work-images{
     margin: 5% 5%;
@@ -60,25 +67,37 @@ section{
     margin-left: 6%;
     padding: 0%;
 }
+    
+}
+.client-email-section{
+    margin: 30%;
+    text-align: center;
+}
 #client{
     text-align: center;
 }
 .client-review{
     text-align: center;
 }
-.client-section{
-    margin-bottom: 50px;
-}
 .email-addrees{
     text-align: center;
-    text-decoration: none;
     color: white;
     background-image:linear-gradient(45deg, #C71558, #C7000F );
     border-radius: 5px;
-    margin: 30%;
+    /*margin: 30%;
     padding: 20px;
+    margin-top: 5px; */
+    margin: 5% 25%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+
+}
+#email{
+    text-decoration: none;
 }
 
-#message{
-    padding-top: 2px; !impotant
+footer{
+    background-color: gray;
+    text-align: center;
+    background-image: url("Images/footer-bg.png");
 }
